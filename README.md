@@ -19,7 +19,7 @@ It's possible to translate a sentence to a different language while choosing whi
    ```
 ## Getting started
 
-1. Make a new folder constants/
+1. Make a new folder in pages/constants/
 2. Make a new file api.key.js
 3. Enter your OpenAPI Api key in following manner:
 

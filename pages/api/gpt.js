@@ -1,5 +1,5 @@
-import { apiKey } from "./api.key";
-import { organization } from "./api.key";
+import { apiKey } from "../constants/api.key";
+import { organization } from "../constants/api.key";
 
 export default async function handler(req, res) {
 
