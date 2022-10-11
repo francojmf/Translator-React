@@ -3,7 +3,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import * as React from 'react'
 import { MdSend } from "react-icons/md"
-
 import { Button, Input, Textarea, Container, Loading, Card, Dropdown } from "@nextui-org/react";
 
 export default function Home() {
@@ -15,7 +14,7 @@ export default function Home() {
   const [isLoading, setIsLoading] = React.useState(false);
 
   const selectedValue = React.useMemo(
-    () => Array.from(currentModel).join(", ").replaceAll("_", " "),
+    () => Array.from(currentModel).join(", ").replace("_", " "),
     [currentModel]
   );
 
